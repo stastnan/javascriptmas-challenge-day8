@@ -44,7 +44,7 @@ body {
 @keyframes colors {
   0% {
     background-color: var(--start);
-    width: 0%;
+    width: 10%;
   }
   50% {
     background-color: var(--middle);
