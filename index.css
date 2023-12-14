@@ -35,8 +35,8 @@ body {
   border-radius: 1rem;
   position: absolute;
   top: 2;
-  animation-name: colors;
-  animation-duration: 3s;
+  animation: colors;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -50,13 +50,13 @@ body {
     background-color: var(--middle);
     width: 50%;
   }
-  99% {
+
+  80% {
     background-color: var(--finish);
     width: 100%;
-    animation: break 2s;
   }
   100% {
-    background-color: var(--progressbar-bg);
+    background-color: var(--finish);
     width: 100%;
   }
 }
